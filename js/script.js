@@ -24,10 +24,20 @@
 Проверить, чтобы все работало без ошибок в консоли */
 
 
-let numberOfFilms = 'Посмотрел один фильм.';
+let numberOfFilms = 'Сколько фильмов вы уже посмотрели?';
 let personalMovieDB = {
+count: 'Посмотрел один фильм!',
+movies: {
+'Harry Potter': '8.2'
+},
+actors: {
 
-}
+},
+genres: [],
+privat: false,
+
+};
 
 console.log(numberOfFilms);
+console.log(personalMovieDB);
 
